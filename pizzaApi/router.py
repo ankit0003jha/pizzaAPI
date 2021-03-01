@@ -1,5 +1,5 @@
-from groceriesapp.viewsets import GroceryItemViewset
+from API.viewsets import pizzaInfoViewset
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register('GroceryItem', GroceryItemViewset)
+router.register('pizzaInfo', pizzaInfoViewset)
